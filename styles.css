@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    border:0;
+    background-color: #000;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 90%;
+    height: 12vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 88vh;
+    background-color: #000;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.content aside{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 5%;
+    background-image: url('assets/DSC_034123.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+}
+
+.content article h2{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content article p{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    width: 60%;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.img-main{
+    width: 90%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.btn-scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    background: #000;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    cursor: pointer
+}
+
+.img-icon{
+    height: 100%;
+}
