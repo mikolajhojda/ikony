@@ -33,8 +33,10 @@ header{
 
 .content{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin: auto;
+    width: 90%;
     height: 100vh;
     background-color: #000;
 }
@@ -43,9 +45,7 @@ header{
     display: flex;
     align-items: center;
     width: 50%;
-    height: 100%;
-    margin-left: 5%;
-    background-image: url('assets/DSC_034123.jpg');
+    height: 80%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -54,7 +54,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 45%;
+    width: 50%;
     height: 100%;
 }
 
@@ -72,10 +72,26 @@ header{
     letter-spacing: 1px;
 }
 
+.content article button{
+    display: flex;
+    justify-content: start;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    border: 0;
+    background: #000;
+    color: #fff;
+    text-align: left;
+    width: 250px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
 .img-main{
     width: 90%;
     height: 80%;
-    background-color: #fff;
+    background-image: url('assets/main.jpg');
+    background-position: bottom;
+    background-size: cover;
 }
 
 .btn-scroll{
@@ -93,4 +109,81 @@ header{
 
 .img-icon{
     height: 100%;
+}
+
+.arrow-long{
+    height: 18px;
+    margin-left: 30px;
+}
+
+#first{
+    background-image: url('assets/DSC_034123.jpg');
+}
+
+#second{
+    background-image: url('assets/DSC_0310.jpg');
+}
+
+#third{
+    background-image: url('assets/DSC_0316.jpg');
+}
+
+#fourth{
+    background-image: url('assets/DSC_0330.jpg');
+}
+
+#fifth{
+    background-image: url('assets/DSC_0335.jpg');
+}
+
+#sixth{
+    background-image: url('assets/DSC_0570.jpg');
+}
+
+@media screen and (max-width: 480px) {
+    .header-text{
+        font-size: 14px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .content aside{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 12vh;
+    }
+    
+    .content article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+    }
+
+    .content article h2{
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .content article p{
+        font-size: 14px;
+        width: 100%;
+        margin: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .content article button{
+        margin: 0;
+    }
 }
