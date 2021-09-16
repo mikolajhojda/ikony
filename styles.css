@@ -117,37 +117,40 @@ header{
 }
 
 #first{
-    background-image: url('assets/DSC_034123.jpg');
+    background-image: url('assets/matka-boza-znak.jpg');
 }
 
 #second{
-    background-image: url('assets/DSC_0310.jpg');
+    background-image: url('assets/matka-boza-glykofilusa.jpg');
 }
 
 #third{
-    background-image: url('assets/DSC_0316.jpg');
+    background-image: url('assets/jezus-pokora.jpg');
 }
 
 #fourth{
-    background-image: url('assets/DSC_0330.jpg');
+    background-image: url('assets/chrystus-pantokrator.jpg');
 }
 
 #fifth{
-    background-image: url('assets/DSC_0335.jpg');
+    background-image: url('assets/chrystus-zbawiciel.jpg');
 }
 
 #sixth{
-    background-image: url('assets/DSC_0570.jpg');
+    background-image: url('assets/mandylion.jpg');
+}
+
+@media screen and (max-width: 1080px) {
+    .content article{
+        width: 45%;
+        margin-left: 5%;
+    }
 }
 
 @media screen and (max-width: 992px) {
 header{
     height: 10vh;
 }
-
-    .header-text{
-        font-size: 14px;
-    }
 
     .content{
         flex-direction: column;
@@ -176,12 +179,10 @@ header{
     }
 
     .content article h2{
-        font-size: 24px;
         margin: 0;
     }
 
     .content article p{
-        font-size: 14px;
         width: 100%;
         margin: 0;
         margin-top: 25px;
@@ -197,6 +198,16 @@ header{
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 678px) {
+    .content article p{
+        font-size: 14px;
+    }
 
+    .content article h2{
+        font-size: 24px;
+    }
+
+    .header-text{
+        font-size: 14px;
+    }
 }
