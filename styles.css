@@ -140,7 +140,7 @@ header{
     background-image: url('assets/DSC_0570.jpg');
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 992px) {
 header{
     height: 10vh;
 }
@@ -195,4 +195,8 @@ header{
     .reverse{
         flex-direction: column-reverse;
     }
+}
+
+@media screen and (max-width: 480px) {
+
 }
