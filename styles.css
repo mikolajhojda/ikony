@@ -48,6 +48,8 @@ header{
 .link{
     color: #fff;
     text-decoration: none;
+    display: flex;
+    justify-content: start;
 }
 
 .container{
@@ -143,6 +145,17 @@ header{
     margin-left: 30px;
 }
 
+.item-main{
+    height: 88vh;
+}
+
+.image-item{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
 #first{
     background-image: url('assets/matka-boza-znak.webp');
 }
@@ -222,6 +235,13 @@ header{
 
     .reverse{
         flex-direction: column-reverse;
+    }
+
+    .image-item{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 50px;
     }
 }
 
