@@ -111,6 +111,7 @@ header{
 
 .img-icon{
     height: 100%;
+    aspect-ratio: attr(width) / attr(height);
 }
 
 .arrow-long{
