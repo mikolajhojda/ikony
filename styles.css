@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Lato&display=swap');
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #aaa;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+
 body{
     margin:0;
     border:0;
@@ -23,6 +43,11 @@ header{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
 }
 
 .container{
