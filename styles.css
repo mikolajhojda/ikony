@@ -114,7 +114,7 @@ header{
 }
 
 .arrow-long{
-    height: 18px;
+    aspect-ratio: attr(width) / attr(height);
     margin-left: 30px;
 }
 
