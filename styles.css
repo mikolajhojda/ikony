@@ -89,7 +89,7 @@ header{
 .img-main{
     width: 90%;
     height: 80%;
-    background-image: url('assets/main.jpg');
+    background-image: url('assets/main.webp');
     background-position: bottom;
     background-size: cover;
 }
@@ -117,27 +117,27 @@ header{
 }
 
 #first{
-    background-image: url('assets/matka-boza-znak.jpg');
+    background-image: url('assets/matka-boza-znak.webp');
 }
 
 #second{
-    background-image: url('assets/matka-boza-glykofilusa.jpg');
+    background-image: url('assets/matka-boza-glykofilusa.webp');
 }
 
 #third{
-    background-image: url('assets/jezus-pokora.jpg');
+    background-image: url('assets/jezus-pokora.webp');
 }
 
 #fourth{
-    background-image: url('assets/chrystus-pantokrator.jpg');
+    background-image: url('assets/chrystus-pantokrator.webp');
 }
 
 #fifth{
-    background-image: url('assets/chrystus-zbawiciel.jpg');
+    background-image: url('assets/chrystus-zbawiciel.webp');
 }
 
 #sixth{
-    background-image: url('assets/mandylion.jpg');
+    background-image: url('assets/mandylion.webp');
 }
 
 @media screen and (max-width: 1080px) {
